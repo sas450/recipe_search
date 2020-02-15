@@ -8,12 +8,7 @@ def salvador():
 
 @app.route("/")
 def home():
-    return render_template("public/index.html")
-    
-if __name__ == "__main__":
-    app.run(debug=True)
-
-
+    return render_template("index.html")
     
 if __name__ == "__main__":
     app.run(debug=True)
