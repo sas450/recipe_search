@@ -1,6 +1,7 @@
 import React , { Component } from 'react';
 import './App.css';
 import TodoList from "./components/TodoList";
+import Demo from "./components/Demo";
 
 class App extends Component {
   state = {
@@ -22,7 +23,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <TodoList />
+        <Demo />
       </div>
     );
   }
