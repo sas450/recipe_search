@@ -1,8 +1,8 @@
-import React , { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 import TodoList from "./components/TodoList";
 import Demo from "./components/Demo";
-
+import Recipe from "./components/Recipe";
 class App extends Component {
   state = {
     count: 0
@@ -23,7 +23,17 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Demo />
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center"
+          }}
+        >
+          <Demo />
+        </div>
+
+        <Recipe ></Recipe>
       </div>
     );
   }
